@@ -1,0 +1,29 @@
+.stage-container {
+    display: inline-block
+}
+
+.stage-container:first-child {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eixos {
+    padding: 10px;
+}
+
+.x {
+    height: 600px;
+}
+
+.y {
+    width: 600px;
+    transform: translateX(20px);
+}
